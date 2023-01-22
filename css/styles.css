@@ -11,6 +11,7 @@ html {
   --title-text-color: #434455;
   --accent-color: #4d5ae5;
   --subtitle-color: #2e2f42;
+  --icon-color: #4d5ae5;
 }
 
 h1,
@@ -187,6 +188,7 @@ body {
   display: block;
   background-repeat: no-repeat;
   background-position: center;
+  margin-bottom: 8px;
 }
 .section-item {
   width: calc((100% - 72px) / 4);
@@ -234,6 +236,30 @@ body {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
+.team-soc-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.team-soc-item {
+}
+.team-soc-link {
+  width: 40px;
+  height: 40px;
+  background-color: var(--icon-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.team-soc-link:hover,
+.team-soc-link:focus {
+  background-color: #404bbf;
+}
+
 .work {
   padding-top: 0;
 }
@@ -252,6 +278,31 @@ body {
 .team-container {
 }
 
+.customers {
+  padding-top: 130px;
+}
+.company-list {
+  display: flex;
+}
+.company-logo-box {
+  display: block;
+  margin-right: 24px;
+}
+.customers-link {
+}
+.company-logo {
+  fill: #8e8f99;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  padding: 16px 32px;
+}
+.company-logo:hover {
+  fill: #4d5ae5;
+  border: 1px solid #4d5ae5;
+}
+
 /* footer */
 
 .footer {
@@ -265,6 +316,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+  display: block;
 }
 
 .footer-desc {
@@ -273,8 +325,35 @@ body {
   letter-spacing: 0.02em;
   color: #e7e9fc;
   width: 264px;
+  display: block;
 }
 .footer-content {
+  display: flex;
+}
+.footer-content-secondary {
+  margin-left: 120px;
+}
+.footer-text-secondary {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+  margin-bottom: 16px;
+}
+.footer-soc-link {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  background: #31d0aa;
 }
 
 .portfolio {
