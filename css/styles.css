@@ -183,16 +183,14 @@ body {
 }
 .advantages-icon-box {
   display: flex;
-  box-sizing: border-box;
-  width: 264px;
+  height: 112px;
+  align-items: center;
+  justify-content: center;
   background-color: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
 }
 .advantages-icon {
-  margin-left: 100px;
-  margin-top: 24px;
-  margin-bottom: 24px;
 }
 .section-item {
 }
@@ -401,7 +399,6 @@ body {
 }
 
 .visually-link:is(:hover, :focus) {
-  border: 0.5px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
